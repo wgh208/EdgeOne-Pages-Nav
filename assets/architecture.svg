@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="360" viewBox="0 0 1040 360" role="img" aria-label="架构图">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34d399"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#22d3ee"/>
+    </marker>
+    <style>
+      .box { fill: #0f172a; stroke: #334155; stroke-width: 1.5; }
+      .title { fill: #f8fafc; font-family: 'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif; font-size: 20px; font-weight: 700; }
+      .sub { fill: #94a3b8; font-family: 'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif; font-size: 14px; }
+      .arrow { stroke: url(#line); stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1040" height="360" fill="#08111f"/>
+  <text x="40" y="48" class="title" font-size="22">EdgeOne Pages Nav · 运行架构</text>
+  <text x="40" y="74" class="sub">浏览器只与 EdgeOne 通信；数据落在 Blob，不需要自建服务器或数据库。</text>
+
+  <rect x="40" y="120" width="220" height="150" rx="16" class="box"/>
+  <text x="150" y="160" text-anchor="middle" class="title">浏览器</text>
+  <text x="150" y="188" text-anchor="middle" class="sub">导航页 / 管理后台</text>
+  <text x="150" y="212" text-anchor="middle" class="sub">图标 · 主题 · 搜索</text>
+  <text x="150" y="236" text-anchor="middle" class="sub">JWT 登录态</text>
+
+  <rect x="380" y="108" width="300" height="174" rx="16" class="box" stroke="#2dd4bf" stroke-opacity="0.55"/>
+  <text x="530" y="146" text-anchor="middle" class="title">EdgeOne Pages Functions</text>
+  <text x="530" y="172" text-anchor="middle" class="sub">Node.js 20 · 自动扩缩容</text>
+  <text x="530" y="202" text-anchor="middle" class="sub">/ 首屏渲染（公开数据直出）</text>
+  <text x="530" y="226" text-anchor="middle" class="sub">/api/* 登录 · 书签 · 主题</text>
+  <text x="530" y="250" text-anchor="middle" class="sub">图标 / 主题代理（可选）</text>
+
+  <rect x="800" y="108" width="200" height="174" rx="16" class="box"/>
+  <text x="900" y="146" text-anchor="middle" class="title">Blob Storage</text>
+  <text x="900" y="174" text-anchor="middle" class="sub">命名空间 cf-nav</text>
+  <text x="900" y="202" text-anchor="middle" class="sub">书签 / 主题 / 备份</text>
+  <text x="900" y="230" text-anchor="middle" class="sub">Strong consistency</text>
+  <text x="900" y="258" text-anchor="middle" class="sub">1 GB 免费额度</text>
+
+  <path d="M260 195 H370" class="arrow"/>
+  <path d="M680 195 H790" class="arrow"/>
+
+  <text x="40" y="320" class="sub">部署：GitHub 仓库 → EdgeOne Makers 导入 → 配置环境变量 → 一键部署</text>
+  <text x="40" y="342" class="sub">无需 KV 白名单，无需数据库，无需构建步骤</text>
+</svg>

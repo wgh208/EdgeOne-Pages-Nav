@@ -1,0 +1,12 @@
+node_modules/
+.edgeone/
+.env
+.env.local
+.env.*.local
+.gh-token
+.github-token
+dist/
+build/
+*.log
+.DS_Store
+Thumbs.db

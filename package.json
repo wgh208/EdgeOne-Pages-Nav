@@ -1,0 +1,32 @@
+{
+  "name": "edgeone-pages-nav",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "使用 EdgeOne Pages 搭建的轻量化导航页面。集成书签管理、图标自动获取、拖拽排序、私密链接保护、主题换肤等功能。",
+  "license": "MIT",
+  "author": "wgh208",
+  "homepage": "https://dh.wgh.me",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wgh208/EdgeOne-Pages-Nav.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wgh208/EdgeOne-Pages-Nav/issues"
+  },
+  "keywords": [
+    "edgeone",
+    "edgeone-pages",
+    "navigation",
+    "bookmark",
+    "startpage",
+    "serverless",
+    "blob"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@edgeone/pages-blob": "^0.0.18"
+  }
+}
