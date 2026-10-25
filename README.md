@@ -1,6 +1,5 @@
 <div align="center">
   <img src="assets/banner.svg" alt="EdgeOne Pages Nav" width="100%" />
-  <h1>EdgeOne Pages Nav</h1>
   <p>使用 EdgeOne Pages 搭建的轻量化导航页面。集成书签管理、图标自动获取、拖拽排序、私密链接保护、主题换肤等功能。</p>
   <p>
     <a href="https://dh.wgh.me"><strong>🌐 在线演示</strong></a>
@@ -349,4 +348,4 @@ EdgeOne-Pages-Nav/
 
 ## 📄 License
 
-[MIT](LICENSE) © 2026 EdgeOne-Pages-Nav contributors
+[MIT](LICENSE) © 2026 wgh208
